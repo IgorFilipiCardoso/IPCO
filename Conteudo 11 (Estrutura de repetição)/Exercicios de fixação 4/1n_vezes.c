@@ -11,7 +11,7 @@ int main()
 
     scanf("%d", &n);
 
-
+    //Estrutura de Repetição
     while (controle < n)
     {
         print(x);

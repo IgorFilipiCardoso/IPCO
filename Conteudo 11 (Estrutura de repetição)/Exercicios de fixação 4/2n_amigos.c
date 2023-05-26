@@ -25,6 +25,7 @@ int main()
     return 0;
 }
 
+//Função para somar os divisores comum.
 int soma_divisores(int arg)
 {
 
