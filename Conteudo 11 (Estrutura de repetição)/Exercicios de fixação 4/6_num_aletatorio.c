@@ -3,14 +3,16 @@
 
 int main()
 {
-    int count;
+    int count, n;
     int num, num_positivo = 2147483647, num_negativo = -2147483647;
 
     srand( (unsigned) time(NULL) );
 
     count = 0;
 
-    while(count < 10)
+    scanf("%d", &n);
+
+    while(count < n)
     {
         num = (rand()) % 100000;
         num -= 50000;
@@ -23,15 +25,15 @@ int main()
             }
             
         }
+
         if (num < 0)
         {
             if (num > num_negativo)
             {
                 num_negativo = num;
             }
-            
         }
-        
+
         count++;
     }
     
