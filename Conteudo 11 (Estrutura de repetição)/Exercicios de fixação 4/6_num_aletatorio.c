@@ -25,8 +25,7 @@ int main()
             }
             
         }
-
-        if (num < 0)
+        else
         {
             if (num > num_negativo)
             {
