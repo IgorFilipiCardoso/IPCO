@@ -13,7 +13,7 @@ int main()
 
         if (num > 0 && num < 1001)
         {
-                if (num > num_maior)
+            if (num > num_maior)
             {
                 num_maior = num;
             }
