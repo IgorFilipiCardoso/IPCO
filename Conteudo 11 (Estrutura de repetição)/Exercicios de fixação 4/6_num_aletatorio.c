@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <time.h>
-#include <stdlib.h.>
 
 int main()
 {
@@ -13,7 +12,7 @@ int main()
 
     while(count < 10)
     {
-        num = (rand() + rand() + rand() + rand()) % 1000000;
+        num = (rand()) % 100000;
         num -= 50000;
         
         if (num > 0)
