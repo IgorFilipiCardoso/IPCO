@@ -65,7 +65,7 @@ void pptls(char sheldon[10], char raj[10], int casos)
             {
                 are_you_winning_son = TRUE;
             }
-            else if (strcmp(raj, "largato") == 0)
+            else if (strcmp(raj, "lagarto") == 0)
             {
                 are_you_winning_son = TRUE;
             }
@@ -80,7 +80,7 @@ void pptls(char sheldon[10], char raj[10], int casos)
             {
                 are_you_winning_son = TRUE;
             }
-            else if (strcmp(raj, "largato") == 0)
+            else if (strcmp(raj, "lagarto") == 0)
             {
                 are_you_winning_son = TRUE;
             }
@@ -119,7 +119,7 @@ void pptls(char sheldon[10], char raj[10], int casos)
                 are_you_winning_son = FALSE;
             }
         }
-        else if (strcmp(sheldon, "largato") == 0)
+        else if (strcmp(sheldon, "lagarto") == 0)
         {
             if (strcmp(raj, "papel") == 0)
             {
