@@ -137,7 +137,7 @@ int emprestar(struct type_aluno aluno[], struct type_livro livro[], int aluno_co
 
             for (j = 0; j < livro_count; j++)
             {
-                if (strcmp(titulo, livro[j].titulo) == 0)
+                if (stricmp(titulo, livro[j].titulo) == 0)
                 {
 
                     find2 = TRUE;
