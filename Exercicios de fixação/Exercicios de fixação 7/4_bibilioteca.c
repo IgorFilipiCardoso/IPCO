@@ -139,7 +139,6 @@ int emprestar(struct type_aluno aluno[], struct type_livro livro[], int aluno_co
             {
                 if (stricmp(titulo, livro[j].titulo) == 0)
                 {
-
                     find2 = TRUE;
 
                     if (livro[j].emprestado != TRUE)
